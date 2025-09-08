@@ -18,4 +18,6 @@ To Install Locally for Development:
   - Same as above but bring containers up with `docker compose build && docker compose up -d`
   - Site will be available at `http://localhost:8080`
 
-
+To do:
+  - Fix hot reloading for easier frontend development
+  - Add prod-only service for letsencrypt to set up HTTPS
